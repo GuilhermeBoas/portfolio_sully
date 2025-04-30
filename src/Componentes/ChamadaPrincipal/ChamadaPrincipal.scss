@@ -1,0 +1,18 @@
+.contato {
+    background-image: url('/src/assets/img/fundo25.png');
+    background-position: center;
+    background-size: cover;
+    height: 690px;
+    display: flex;
+    align-items: center;
+
+    
+    
+    .container-central {
+        width: 100%;
+        max-width: 872px;
+        margin: 128px auto;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,40 @@
+.cabecalho{
+    // width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+    a{
+        span{
+            font-family: var(--fonte-logo);
+            font-size: 1.875rem;
+            color: var(--cor-roxo);
+        }
+    }
+    ul{
+        display: flex;
+        gap: 1rem;
+        
+        li{
+            text-transform: uppercase;
+            font-size: 1rem;
+            padding: 1rem 0 ;
+
+            a{
+                color: var(--cor-fonte-clara);
+                transition: font-size 0.3s ease;
+                &:hover{
+               
+                    font-size: 1.55rem;
+                    background-color: black;
+                   
+                }
+
+            }
+            
+            
+
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Chonburi';
+  src: url('./assets//fonts/Chonburi-Regular.ttf') ;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('./assets//fonts/Roboto-Regular.ttf');
+}
+:root{
+  --cor-fundo-primaria:#000000;
+  --cor-fundo-secundaria: #1E1E1E;
+  --cor-fundo-terciaria: #C2C2C2;
+  --cor-fonte-clara: #e0e0e0;
+  --cor-roxo: #9C27B0;
+  --fonte-logo:'Chonburi'
+}
+
+body{
+  background-color: var(--cor-fundo-primaria);
+  color: var(--cor-fonte-clara);
+  font-family: 'Roboto';
+  
+}
