@@ -1,6 +1,7 @@
 import CardSolucos from './CardSolucos'
 import './Solucoes.scss'
 import data from '../../data/cars-solucoes.json'
+import { Link } from 'react-router'
 
 const Solucoes =()=>{
     
@@ -13,7 +14,7 @@ const Solucoes =()=>{
                 <p>
                     Atuo com foco em UX e UI, oferecendo soluções para diferentes desafios digitais — desde a criação de interfaces do zero até o redesenho de produtos já existentes. Cada projeto é único, e meu papel é entender o que ele precisa para alcançar seu melhor desempenho.
                 </p>
-                <a href="">Veja meus trabalhos &gt; &gt;</a>
+                <Link to='/trabalhos' >Veja meus trabalhos &gt; &gt;</Link>
             </div>
 
             <div className='container-cards'>

@@ -1,0 +1,37 @@
+.card-trabalhos{
+    display: flex;
+    max-width: 36.5rem;
+    width: 100%;
+    background-color: var(--cor-fundo-secundaria);
+    border-radius: 20px;
+    align-items: start;  
+    img{
+        width: 60px;
+        border-radius: 50%;
+        padding: 1rem;
+
+    }
+    div{
+        h4{
+            padding-top: 1rem;
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+        p{
+            padding-top: 0.5rem;
+        }
+
+        .container-tags{
+            margin: 1rem 0;
+            display: flex;
+            gap: 1rem;
+            span{
+                color: white;
+                background-color: var(--cor-roxo);
+                padding: 0.5rem;
+                border-radius: 10px;
+            }
+
+        }
+    }
+}

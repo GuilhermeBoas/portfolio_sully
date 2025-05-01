@@ -1,0 +1,50 @@
+{
+    "trabalhos": [
+        {
+            "imagem": "garantia",
+            "titulo": "Portal Garantia",
+            "info": "Uma solução eficiente para processos de devolução",
+            "cliente": "Indústria Metalúrgica Alli (IMA)",
+            "tags": [
+                "Plataforma",
+                "Desktop"
+            ]
+        },{
+            "imagem": "litejob",
+            "titulo": "Redesign Litejob",
+            "info": "Modernização da experiência de uma plataforma de eventos",
+            "cliente": "Litejob",
+            "tags": [
+                "Plataforma",
+                "Desktop","Mobile"
+            ]
+        },{
+            "imagem": "c2cards",
+            "titulo": "Redesign C2 Cards",
+            "info": "Evolução de um sistema de gerenciamento de recebíveis",
+            "cliente": "C2 Cards",
+            "tags": [
+                "Plataforma",
+                "Desktop"
+            ]
+        },{
+            "imagem": "gabinete",
+            "titulo": "Redesign Gabinete Inteligente",
+            "info": "Reorganização e refinamento visual de um sistema político",
+            "cliente": "Gabinete Inteligente",
+            "tags": [
+                "Plataforma",
+                "Desktop"
+            ]
+        },{
+            "imagem": "solid",
+            "titulo": "Redesign Solid BI",
+            "info": "Reestruturação e redesign do site principal de uma empresa de BI",
+            "cliente": "Solid BI",
+            "tags": [
+                "Site"
+            ]
+        }
+
+    ]
+}

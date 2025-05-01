@@ -1,0 +1,32 @@
+.sobre-min {
+    padding: 4rem 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    background-color: var(--cor-fundo-secundaria);
+
+    img {
+        max-width: 13rem;
+    }
+
+    div {
+        max-width: 707px;
+
+        h3 {
+            max-width: fit-content;
+            font-size: 1.8rem;
+            padding-bottom: 8px;
+            border-bottom: 3px solid var(--cor-roxo);
+        }
+
+        p {
+            padding: 2rem 0;
+        }
+
+        a {
+            color: var(--cor-roxo);
+            font-weight: 600;
+        }
+    }
+}

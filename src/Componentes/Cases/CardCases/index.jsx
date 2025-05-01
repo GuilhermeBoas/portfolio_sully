@@ -1,15 +1,19 @@
 import './CardCases.scss'
 import Estrelas from './Estrelas'
-const CardCases = () => {
+const CardCases = ({texto,titulo}) => {
     return (
         <div className="card-cases">
+
             <p>
-                “A Karen tem muito conhecimento de UI/UX e Figma, e fez um mockup de alta fidelidade lindo pro nosso site.”
+                “{texto}”
             </p>
 
-            <span>Rafael|solid BI</span>
-            <Estrelas/>
-            <a href="">ver o case &gt; &gt;</a>
+
+            <div className='inferior'>
+                <span>{titulo}</span>
+                <Estrelas />
+                <a href="#">ver o case &gt; &gt;</a>
+            </div>
         </div>
     )
 }

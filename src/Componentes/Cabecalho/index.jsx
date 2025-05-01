@@ -1,13 +1,14 @@
+import { Link } from 'react-router';
 import './Cabecalho.scss'
 const Cabecalho = () =>{
     return(
         <header className="cabecalho">
-            <a href="#">
+            <Link to='/'>
                 <span>K.</span>
-            </a>
+            </Link >
             <ul>
-                <li><a href="#">hOME</a></li>
-                <li><a href="#">TRaBALHOS</a></li>
+                <li><Link to='/'>hOME</Link></li>
+                <li><Link to='/trabalhos'>TRaBALHOS</Link></li>
                 <li><a href="#">SOBRE MIM</a></li>
             </ul>
       </header>
