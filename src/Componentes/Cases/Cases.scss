@@ -1,0 +1,26 @@
+.cases{
+    
+    padding: 4rem 10rem;
+    display: grid;
+    grid-template-areas: 
+        'titulo . .' 
+        'card card card'
+    ;
+    justify-content: center;
+    h3{
+        max-width: fit-content;
+        font-size: 1.8rem;
+        padding-bottom: 8px;
+        border-bottom: 3px solid var(--cor-roxo);
+        text-align: left;
+        grid-area: titulo;
+    }
+    .container-cards{
+        grid-area: card;
+        display: flex;
+        gap: 4rem;
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        
+    }
+}

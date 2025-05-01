@@ -1,0 +1,19 @@
+{
+    "solucoes": [
+        {
+            "titulo": "Criação do zero",
+            "texto": "Desenvolvimento de interfaces desde a estruturação até o protótipo final",
+            "img": "draw"
+        },
+        {
+            "titulo": "Redesign de produtos",
+            "texto": "Melhorias na estética e experiência do usuário em produtos existentes",
+            "img": "design"
+        },
+        {
+            "titulo": "Consultorias personalizadas",
+            "texto": "Atuação estratégica em demandas específicas de UX e UI",
+            "img": "business"
+        }
+    ]
+}

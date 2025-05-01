@@ -1,18 +1,46 @@
 .contato {
-    background-image: url('/src/assets/img/fundo25.png');
+    background-image: url('/img/fundo25.png');
     background-position: center;
     background-size: cover;
     height: 690px;
     display: flex;
-    align-items: center;
-
-    
+    align-items: center;    
     
     .container-central {
         width: 100%;
         max-width: 872px;
         margin: 128px auto;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 6.25rem;
+        align-items: center;
+        div{
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            h2{
+                font-size: 3rem;
+                span{
+                    color: var(--cor-roxo);
+                    font-style: italic;
+                }
+            }
+            p{
+                font-family: Roboto;
+                font-weight: 300;
+                font-style: italic;
+                font-size: 2rem;
+            }
+        }
+        a{
+            border: solid 3px var(--cor-roxo);
+            border-radius: 50px;
+            color: var(--cor-roxo);
+            font-weight:700;
+            max-width: 100%;
+            padding: 8px 2rem;
+        }
     }
 }
 

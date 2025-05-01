@@ -1,0 +1,36 @@
+// mudei o 500 para 600 pq não estava em destaque
+.solucoes{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    justify-items: center;
+    background-color: var(--cor-fundo-terciaria);
+    color: var(--cor-fundo-primaria);
+    padding: 4rem 10rem;
+    gap: 2rem;
+    align-items: center;
+    
+    .apresentacao{
+        width: 100%;
+        max-width: 22.1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        h3{
+            max-width: fit-content;
+            font-size: 1.8rem;
+            padding-bottom: 8px;
+            border-bottom: 3px solid var(--cor-roxo);
+            
+        }
+    }
+
+    .container-cards{
+        display: flex;
+        gap: 1.5rem;
+    }
+    
+    a{
+        color: var(--cor-roxo);
+        font-weight: 600;
+    }
+}
